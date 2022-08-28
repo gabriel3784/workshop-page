@@ -8,7 +8,7 @@ body {
     background-color: black;
 }
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 header {
@@ -20,9 +20,15 @@ header {
 .title-up {
     font-size: 24px;
 }
+section {
+    padding: 20px;
+    background-image: url('../images/cloud.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
 .container-form {
     max-width: 240px;
-    background-color: #ffffffbb;
+    background-color: #131212bb;
     float: right;
     padding: 12px;
 }
@@ -32,6 +38,7 @@ h2 {
 }
 .descption-form {
     margin-bottom: 10px;
+    color: white;
 }
 input, select {
     width: 100%;
@@ -45,4 +52,42 @@ input[type="submit"]{
     background: #3780ff;
     font-weight: bold;
     text-transform: uppercase;
+}
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    background-image: url('../icons/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+footer {
+    background-color: rgb(48, 44, 44);
+    text-align: center;
+    padding: 40px;
+}
+.profile-image {
+    width: 200px;
+    
+}
+.description {
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+.description h4, .description h3, .description p {
+    margin-bottom: 20px;
+}
+.description h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.all-rights {
+    background-color: #ea4335;
+    color: black;
+    text-align: center;
+    font-size: 13.6px;
 }
