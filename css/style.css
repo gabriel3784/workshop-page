@@ -8,15 +8,41 @@ body {
     background-color: black;
 }
 .container {
-    background-color: #3780ff;
-    width: 1000px;
+    max-width: 800px;
     margin: auto;
 }
 header {
     background-color: #3780ff;
     text-align: center;
-    padding: 7px;
+    color: white;
+    padding: 10px;
 }
 .title-up {
     font-size: 24px;
+}
+.container-form {
+    max-width: 240px;
+    background-color: #ffffffbb;
+    float: right;
+    padding: 12px;
+}
+h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.descption-form {
+    margin-bottom: 10px;
+}
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    color: white;
+    background: #3780ff;
+    font-weight: bold;
+    text-transform: uppercase;
 }
